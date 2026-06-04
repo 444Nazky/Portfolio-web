@@ -1,30 +1,30 @@
-name: General task / question
-description: Use this template for general work items.
+name: Tugas / Pertanyaan Umum
+description: Gunakan template ini untuk pekerjaan atau pertanyaan umum.
 title: "[Task] "
 labels: [enhancement]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill this out.
+        Terima kasih sudah meluangkan waktu untuk mengisi form ini.
   - type: textarea
     id: what
     attributes:
-      label: What would you like to be added or changed?
-      description: A clear and concise description of the task.
+      label: Apa yang ingin ditambahkan atau diubah?
+      description: Jelaskan tugas/permintaan secara singkat dan jelas.
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
-      label: Why is this needed?
+      label: Kenapa ini diperlukan?
     validations:
       required: false
   - type: textarea
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: What should be true after this work is done?
+      description: Apa yang harus benar setelah pekerjaan ini selesai?
     validations:
       required: true
   - type: textarea
@@ -33,4 +33,5 @@ body:
       label: Additional context
     validations:
       required: false
+
 
